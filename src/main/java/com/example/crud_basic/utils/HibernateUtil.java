@@ -17,9 +17,9 @@ public class HibernateUtil {
 
                 Properties settings = new Properties();
                 settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-                settings.put(Environment.URL, "jdbc:mysql://localhost:3306/students_db?characterEncoding=utf8");
+                settings.put(Environment.URL, "jdbc:mysql://localhost:3306/dbname?characterEncoding=utf8");
                 settings.put(Environment.USER, "root");
-                settings.put(Environment.PASS, "uwasekayesu");
+                settings.put(Environment.PASS, "thePassword");
                 settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
 
                 settings.put(Environment.SHOW_SQL, "true");
