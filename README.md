@@ -1,4 +1,4 @@
-# java-servlet-app
+# Java-servlet-app
 
  Add your db name,
  username 
